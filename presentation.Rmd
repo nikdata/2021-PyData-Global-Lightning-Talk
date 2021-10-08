@@ -1,0 +1,85 @@
+---
+title: "Best of Both Worlds: R & Python"
+subtitle: ""  
+author: 
+  - "Nikhil Agarwal"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+
+library(fontawesome)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_xaringan(
+  background_color = '#000000',
+  text_color = '#FFFFFF',
+  text_font_family = 'Montserrat Alternates',
+  header_color = '#FFFFFF',
+  header_font_family = "Source Sans Pro",
+  code_font_family = "IBM Plex Mono",
+  code_inline_color = "#ffa600",
+  code_font_size = "0.6em",
+  text_slide_number_color = "#b6bfc2",
+  extra_fonts = list(
+    google_font(family = "Source Sans Pro"),
+    google_font(family = "Signika"),
+    google_font(family = "Montserrat Alternates"),
+    google_font(family = "IBM Plex Mono"),
+    google_font(family = "Lemonada")
+  ),
+  extra_css = list(
+    ".fancy" = list("font-family" = "Signika"),
+    ".large" = list("font-family" = "Source Sans Pro"),
+    "img.circle" = list('border-radius' = '50%'),
+    "h3" = list("font-family" = 'Source Sans Pro'),
+    "img.center" = list("margin-left" = "auto", "margin-right" = "auto"),
+    ".remark-slide-number" = list('opacity' = 0L)
+  )
+)
+```
+
+
+
+
+
+## Typography
+
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+
+[Link to another slide](#colors).
+
+### Lorem Ipsum
+
+Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
+Lacinia neque mollis nascetur neque urna velit bibendum. 
+Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
+
+- Dolor cubilia nostra nunc sodales
+
+- Consectetur aliquet mauris blandit
+
+- Ipsum dis nec porttitor urna sed
+
+
