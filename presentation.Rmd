@@ -61,25 +61,69 @@ style_xaringan(
 ```
 
 
+# The Dilemma
 
+### `r fa(name = 'glass-cheers', fill = 'steelblue')` R vs. Python
 
+### `r fa(name = 'server', fill = 'steelblue')` Deployment in one language
 
-## Typography
+### `r fa(name = 'book', fill = 'steelblue')` Some libraries easier to use
 
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+---
 
-[Link to another slide](#colors).
+# Enter Reticulate
 
-### Lorem Ipsum
+### `r fa(name = 'r-project', fill = 'steelblue')` R library; developed by RStudio
 
-Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
-Lacinia neque mollis nascetur neque urna velit bibendum. 
-Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
+### `r fa(name = 'python', fill = 'steelblue')` Leverage Python libraries within R
 
-- Dolor cubilia nostra nunc sodales
+### `r fa(name = 'birthday-cake', fill = 'steelblue')` Translates R & Python objects on the fly
 
-- Consectetur aliquet mauris blandit
+---
 
-- Ipsum dis nec porttitor urna sed
+# Benefits
 
+### `r fa(name = 'book-open', fill = 'steelblue')` Use any library from either language
 
+### `r fa(name = 'project-diagram', fill = 'steelblue')` Maintain workflow when using R
+
+---
+
+# Typical Workflow
+
+### `r fa(name = 'r-project', fill = 'steelblue')` Data Analysis
+
+### `r fa(name = 'r-project', fill = 'steelblue')`,`r fa(name = 'python', fill = 'steelblue')` Data Modeling
+
+### `r fa(name = 'docker', fill = 'steelblue')` Deployment
+
+---
+
+# Example
+
+<img src="img/reticulate-code.png" width="1000" alt="reticulate example code">
+
+---
+
+# Python Users [R]ejoice!
+
+**rpy2**
+
+- Python library (similar to reticulate)
+- enables execution of R code
+
+---
+
+# Resources
+
+Sample R code with Reticulate
+
+- https://github.com/nikdata/2021_DSM-Data-Analytics-March-Presentation/blob/main/reticulate.Rmd
+
+RPy2
+
+- https://rpy2.github.io/index.html
+
+Presentation
+
+- <LINK HERE>
