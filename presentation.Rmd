@@ -127,3 +127,8 @@ RPy2
 Presentation
 
 - https://nikdata.github.io/2021-PyData-Global-Lightning-Talk/presentation.html
+
+## Say Hello!
+
+`r fa(name = 'twitter', fill = 'steelblue')` [@nikagarwal](https://www.twitter.com/nikagarwal)
+`r fa(name = 'github', fill = 'steelblue')` [nikdata](https://www.github.com/nikdata)
